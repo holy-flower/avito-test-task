@@ -11,3 +11,15 @@
 Возвращается:
 ```json
 {"status": "Сохранили объявление - <id>"}
+```
+**Ожидаемый результат:**
+Согласно Postman-коллекции, должен возвращаться объект объявления с полями:
+id, sellerId, name, price, statistics, createdAt.
+
+**Серьёзность:**
+Major
+
+**Окружение:**
+- Host: https://qa-internship.avito.com
+- Python 3.12
+- pytest
